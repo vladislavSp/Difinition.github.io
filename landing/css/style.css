@@ -711,6 +711,9 @@ ul {
           transform: translateX(-50%);
   z-index: -1; }
 
+.page-main__avengers {
+  height: 900px; }
+
 .page-main__avengers-main {
   height: 100%;
   -webkit-transition-duration: 2s;
@@ -809,7 +812,7 @@ ul {
 @media (max-width: 1542px) {
   .page-main__avengers-main,
   .page-main__avengers {
-    top: -25%; } }
+    top: -26%; } }
 
 @media (max-width: 840px) {
   .page-main__list {
@@ -871,7 +874,7 @@ ul {
     left: 3rem;
     bottom: 4rem; }
   .page-main__avengers-main, .page-main__avengers {
-    top: -19%; } }
+    top: -20%; } }
 
 .page-footer {
   position: relative;
