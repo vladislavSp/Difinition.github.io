@@ -342,7 +342,7 @@ body {
   font-size: 1.8rem;
   line-height: 2.6rem;
   color: #ffffff;
-  background-color: #e25770; }
+  background-color: #7ed6e0; }
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -374,7 +374,7 @@ ul {
 
 @media (max-width: 840px) {
   body {
-    background-color: #e35870; } }
+    background-color: black; } }
 
 .main-wrapper {
   max-width: 160rem;
@@ -511,7 +511,8 @@ ul {
   line-height: 4.8rem;
   text-transform: uppercase;
   font-weight: 400;
-  color: #ffccd5; }
+  color: #ff7800;
+  text-shadow: 2px 2px 0 white; }
 
 .header__nav {
   width: 21.6rem;
@@ -531,9 +532,9 @@ ul {
   cursor: pointer;
   width: 2rem;
   height: 2rem;
-  margin-right: 3.8rem;
+  margin-right: 2.8rem;
   text-transform: inherit;
-  border: 0.2rem solid #b3485b;
+  border: 0.2rem solid #ff7800;
   background: url("../img/gb-flag.png") 0 0 no-repeat; }
   .header__lang-btn::after {
     content: "";
@@ -564,9 +565,11 @@ ul {
 .header__link {
   font-size: 1.8rem;
   line-height: 4.8rem;
-  color: #ffccd5; }
+  color: #ff7800;
+  text-shadow: white 2px 2px 0; }
   .header__link:hover {
-    color: #ffffff; }
+    color: #ffffff;
+    text-shadow: #ff7800 2px 2px 0; }
 
 @media (max-width: 840px) {
   .header {
@@ -588,7 +591,7 @@ ul {
     width: 4.8rem;
     height: 4.8rem;
     margin: 0;
-    background: #b0394e;
+    background: #00a5b3;
     border: none;
     border-radius: 6px;
     margin-right: 0.8rem;
@@ -605,7 +608,7 @@ ul {
     width: 4.8rem;
     height: 4.8rem;
     margin: 0;
-    background: #b0394e;
+    background: #00a5b3;
     border: none;
     border-radius: 6px;
     cursor: pointer; }
@@ -628,13 +631,18 @@ ul {
     width: 14rem;
     text-align: center; }
   .header__link {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: none; }
+    .header__link:hover {
+      color: white;
+      text-shadow: none; }
   .header__link span {
     display: none; }
   .header__item:hover {
-    background-color: rgba(176, 57, 78, 0.5); }
+    background-color: rgba(255, 120, 0, 0.5); }
   .header__lang-btn:hover {
-    background-color: rgba(176, 57, 78, 0.5); }
+    background-color: rgba(255, 120, 0, 0.5); }
   .header__lang:hover {
     color: white; } }
 
@@ -681,7 +689,7 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  cursor: url("../img/int-dildo.svg"), pointer;
+  cursor: pointer;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s; }
   .page-main__item::after {
@@ -694,8 +702,8 @@ ul {
     left: 49%;
     background: url("../img/chevron-down.png") no-repeat; }
 
-.page-main__girl-main,
-.page-main__girl {
+.page-main__avengers-main,
+.page-main__avengers {
   position: absolute;
   top: -50%;
   left: 50%;
@@ -703,15 +711,15 @@ ul {
           transform: translateX(-50%);
   z-index: -1; }
 
-.page-main__girl-main {
+.page-main__avengers-main {
   height: 100%;
   -webkit-transition-duration: 2s;
           transition-duration: 2s; }
 
-.page-main__girl--invisible {
+.page-main__avengers--invisible {
   opacity: 0; }
 
-.page-main__girl--visible {
+.page-main__avengers--visible {
   -webkit-animation-name: imageSlider;
           animation-name: imageSlider;
   -webkit-animation-duration: 4s;
@@ -721,7 +729,7 @@ ul {
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
 
-.page-main__list:hover + .page-main__girl-main {
+.page-main__list:hover + .page-main__avengers-main {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   opacity: 0; }
@@ -753,7 +761,8 @@ ul {
   margin-bottom: 2.5rem;
   font-size: 4.8rem;
   line-height: 4.8rem;
-  color: #000000; }
+  color: #ff7800;
+  text-shadow: white 1px 1px 0; }
 
 .page-main__join {
   opacity: 0;
@@ -769,7 +778,7 @@ ul {
   text-align: center;
   text-decoration: none;
   color: #ffffff;
-  background-color: #ff526f;
+  background-color: #FF7800;
   border-radius: 0.8rem;
   cursor: inherit; }
   .page-main__join span {
@@ -798,8 +807,8 @@ ul {
   display: none; }
 
 @media (max-width: 1542px) {
-  .page-main__girl-main,
-  .page-main__girl {
+  .page-main__avengers-main,
+  .page-main__avengers {
     top: -25%; } }
 
 @media (max-width: 840px) {
@@ -826,8 +835,6 @@ ul {
       display: none; }
   .page-main__item:nth-child(1) .page-main__time {
     display: none; }
-  .page-main__item:hover .page-main__cost {
-    color: #f8607b; }
   .page-main__amount-desktop {
     display: none; }
   .page-main__amount-mobile {
@@ -863,7 +870,7 @@ ul {
     width: 20.8rem;
     left: 3rem;
     bottom: 4rem; }
-  .page-main__girl-main, .page-main__girl {
+  .page-main__avengers-main, .page-main__avengers {
     top: -19%; } }
 
 .page-footer {
@@ -908,7 +915,11 @@ ul {
     left: -3.6rem; }
 
 .page-footer__item:first-child::before {
-  background: url("../img/int-bra.svg") 0 0 no-repeat; }
+  width: 4.5rem;
+  left: -4.7rem;
+  top: 0;
+  background: url("../img/funko.png") 3px -1px no-repeat;
+  background-size: 44px 24px; }
 
 .page-footer__item:nth-child(2)::before {
   left: -3.5rem;
@@ -934,7 +945,7 @@ ul {
 
 @media (max-width: 840px) {
   .page-footer {
-    background-color: rgba(155, 58, 76, 0.5); }
+    background-color: rgba(0, 165, 179, 0.5); }
   .page-footer__list {
     width: 64rem;
     padding: 5.6rem 0 2rem 8.2rem;
