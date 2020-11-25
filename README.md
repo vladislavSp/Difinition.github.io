@@ -1,1 +1,1 @@
-# black friday
+# all projects
